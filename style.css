@@ -6,6 +6,7 @@
 
 .main {
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,4 +193,194 @@
 
 .drag-fwd{
     color: #f75ff7;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 320px){
+    .interface{
+        min-width: 90%;
+    }
+    
+    .menu{
+        left: 245px;
+    }
+
+    .art{
+        left: 16%;
+    }
+
+    .time{
+        left: 72%;
+    }
+    
+    .pause-btn{
+        left: 20%;
+    }
+
+    .controls{
+        position: relative;
+        left: -2%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .interface{
+        min-width: 90%;
+    }
+    
+    .menu{
+        left: 340px;
+    }
+
+    .art{
+        left: 23%;
+    }
+
+    .time{
+        left: 72%;
+    }
+    
+    .pause-btn{
+        left: 15%;
+    }
+
+    .controls{
+        position: relative;
+        left: 10%;
+    }    
+}
+@media only screen and (max-width: 768px){
+    .interface{
+        min-width: 80%;
+    }
+    
+    .menu{
+        left: 560px;
+    }
+
+    .art{
+        left: 33%;
+    }
+
+    .container{
+        position: relative;
+        left: 20%;
+    }
+
+    .time{
+        left: 80%;
+    }
+    
+    .pause-btn{
+        left: 15%;
+    }
+
+    .controls{
+        position: relative;
+        left: 25%;
+    }    
+}
+@media only screen and (max-width: 1024px){
+    .interface{
+        max-width: 60%;
+        
+        position: absolute;
+        left: 15%
+    }
+    
+    .menu{
+        left: 560px;
+    }
+
+    .art{
+        left: 33%;
+    }
+
+    .container{
+        position: relative;
+        left: 20%;
+    }
+
+    .time{
+        left: 80%;
+    }
+    
+    .pause-btn{
+        left: 15%;
+    }
+
+    .controls{
+        position: relative;
+        left: 25%;
+    }    
+}
+
+@media only screen and (max-width: 1440px){
+    .interface{
+        max-width: 60%;
+        
+        position: absolute;
+        left: 15%
+    }
+    
+    .menu{
+        left: 810px;
+    }
+
+    .art{
+        left: 38%;
+    }
+
+    .container{
+        position: relative;
+        left: 20%;
+    }
+
+    .time{
+        left: 90%;
+    }
+    
+    .pause-btn{
+        left: 10%;
+    }
+
+    .controls{
+        position: relative;
+        left: 33%;
+    }    
+}
+@media only screen and (max-width: 2560px){
+    .interface{
+        max-width: 60%;
+        
+        position: absolute;
+        left: 15%
+    }
+    
+    .menu{
+        left: 810px;
+    }
+
+    .art{
+        left: 38%;
+    }
+
+    .container{
+        position: relative;
+        left: 20%;
+    }
+
+    .time{
+        left: 90%;
+    }
+    
+    .pause-btn{
+        left: 10%;
+    }
+
+    .controls{
+        position: relative;
+        left: 33%;
+    }    
 }
